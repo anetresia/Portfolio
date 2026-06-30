@@ -1,0 +1,321 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffffff;
+}
+
+html{
+    scroll-behavior:smooth;
+    scroll-padding-top: 80px;
+}
+
+/* header */
+
+.main-header{
+    position: sticky;
+    top: 0;
+    z-index:1000;
+}
+/* ================= NAVBAR ================= */
+
+.navbar{
+    background:#ffffff;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:700;
+    color:#000;
+}
+
+.nav-link{
+    font-size:18px;
+    color:#000;
+    margin-left:18px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#2563EB
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    padding:90px 0;
+}
+
+.hero h4{
+    font-size:35px;
+    font-weight:600;
+}
+
+.hero h1{
+    font-size:58px;
+    font-weight:700;
+    color:#2563EB
+}
+
+.hero p{
+    margin-top:30px;
+    font-size:22px;
+    line-height:42px;
+    color:#444;
+}
+
+/* ================= BUTTONS ================= */
+
+.btn{
+    background:#2563EB;
+    color:#fff ;
+    border:none;
+    padding:15px 35px;
+    border-radius:18px;
+    font-size:20px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1E3A8A ;
+    color:#fff ;
+}
+
+.btn{
+    padding:15px 35px;
+    border-radius:18px;
+    font-size:20px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1E3A8A;
+    color:#fff;
+    border-color:#1E3A8A;
+}
+
+/* ================= PROFILE IMAGE ================= */
+
+.profile-image{
+    width:430px;
+    height:430px;
+    object-fit:cover;
+    border-radius:50%;
+    border:2px solid #222;
+}
+
+/* ================= ABOUT ================= */
+
+.about{
+    background:#fafafa;
+}
+
+.section-title{
+    color:#1E3A8A;
+    font-size:40px;
+    font-weight:700;
+}
+
+.about-img{
+    width:350px;
+    height:350px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid #1E3A8A;
+}
+
+.about p{
+    color:#555;
+    line-height:32px;
+    font-size:18px;
+}
+
+.about h6{
+    font-weight:700;
+}
+
+/* ================= EDUCATION ================= */
+
+.education{
+    background:#fff;
+}
+
+.edu-card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 20px rgba(0,0,0,.08);
+    transition:.3s;
+    height:250px;
+}
+
+.edu-card:hover{
+    transform:translateY(-10px);
+    border:2px solid #1E3A8A;
+}
+
+.edu-card:hover h4,
+.edu-card:hover h6{
+    color:#1E3A8A;
+}
+.edu-card h6{
+    color:#1E3A8A;
+}
+
+
+.edu-card p{
+    color:#666;
+    margin-top:15px;
+}
+
+/* ================= SKILLS ================= */
+
+.skills{
+    background:#fafafa;
+}
+
+.skill-text{
+    font-size:18px;
+    line-height:34px;
+    color:#555;
+}
+
+.progress{
+    border-radius:50px;
+}
+
+.progress-bar{
+    border-radius:50px;
+    background:#2563EB ;
+}
+
+/* ================= PROJECTS ================= */
+
+.project-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 30px rgba(30,58,138,.25);
+}
+
+.project-card img{
+    height:220px;
+    width:100%;
+    object-fit:cover;
+}
+
+.project-card h4{
+    font-weight:700;
+}
+
+.project-card p{
+    color:#666;
+    line-height:28px;
+}
+
+
+
+/* ================= CONTACT ================= */
+
+.contact{
+    background:#fafafa;
+}
+
+.form-control{
+    padding:15px;
+    border-radius:12px;
+}
+
+.form-control:focus{
+    border-color:#2563EB;
+    box-shadow:0 0 0 .2rem rgba(37,99,235,.25);
+}
+
+textarea{
+    resize:none;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background:#1E3A8A;
+    color:#fff;
+    padding:15px 0;   
+}
+
+.footer h4{
+    font-weight:700;
+    font-size:18px;   
+    margin-bottom:5px;
+}
+
+.footer p{
+    margin-bottom:5px; 
+    font-size:14px;   
+    color:#fff;
+}
+
+.social-icons{
+    margin:10px 0;    
+}
+
+.social-icons a{
+    color:#fff;
+    font-size:22px;   
+    margin:0 8px;     
+    text-decoration:none;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    color:#2563EB;
+    transform: translateY(-2px); 
+}
+
+.footer hr{
+    border-color:rgba(255,255,255,.3);
+    margin:10px auto;
+    width:60%;  
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+.hero{
+    text-align:center;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero h4{
+    font-size:28px;
+}
+
+.hero p{
+    font-size:18px;
+    line-height:34px;
+}
+
+.profile-image{
+    width:300px;
+    height:300px;
+}
+
+}
